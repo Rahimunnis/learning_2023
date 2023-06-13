@@ -1,3 +1,4 @@
+//
 #include<stdio.h>
 int main(){
     int i,temp,n;
@@ -21,7 +22,7 @@ int main(){
         }
     }
     else{
-        for(i=0;i<=n/2;i=i+3){
+        for(i=0;i<=n-3;i=i+3){
         
             temp=a[i];
             a[i]=a[i+2]; //swapping
