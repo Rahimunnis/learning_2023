@@ -1,4 +1,4 @@
-//program 2 solution
+//program 2 level 1 solution
 #include <stdio.h>
 int main(){
     int marks;

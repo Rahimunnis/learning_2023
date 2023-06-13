@@ -1,4 +1,4 @@
-//program 3 solution
+//program 3 level 1 solution
 #include <stdio.h>
 int main() {
     int roll;

@@ -1,4 +1,4 @@
-// program 5 solution size of int is 4 bytes and we know that 1 byte = 8 bit.
+// program 5  level 1 solution
 #include <stdio.h>
 int main() {
     int num;
