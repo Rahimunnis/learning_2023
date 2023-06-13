@@ -1,6 +1,5 @@
 //program 4 level 1 solution
 #include <stdio.h>
-
 int main() {
     int a[3]={0x01,0xF4,0x10001};
     int cnt=0;
