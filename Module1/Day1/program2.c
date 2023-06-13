@@ -1,3 +1,4 @@
+//program 2 solution
 #include <stdio.h>
 int main(){
     int marks;

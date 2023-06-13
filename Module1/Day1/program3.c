@@ -1,5 +1,5 @@
+//program 3 solution
 #include <stdio.h>
-//#include<strings.h>
 int main() {
     int roll;
     char name[20];
