@@ -3,18 +3,18 @@
 int main ()
 {
   int operand1, operand2;
-  float result;
-  char ch;
+  int result;
+  char operator;
   printf ("Enter first number = ");
   scanf ("%d", &operand1);
+  printf ("Choose operator to perform operations = ");
+  scanf (" %c", operator);
   printf ("Enter second number = ");
   scanf ("%d", &operand2);
-  printf ("Choose operator to perform operations = ");
-  scanf (" %c", &ch);
   result = 0;
-  switch (ch)
+  switch(operator)
     {
-    case '+':
+    case '+': 
       result = operand1 + operand2;
       break;
     case '-':
@@ -27,9 +27,10 @@ int main ()
       result = operand1 / operand2;
       break;
     default:
-      printf ("Invalid operation\n");
+      printf ("\nInvalid operation operator ");
+      break;
     }
-  printf ("Result: %d %c %d = %f\n", operand1, ch, operand2, result);
+  printf ("\nResult: %d %c %d = %d\n", operand1, operator, operand2, result);
   return 0;
 }
 
