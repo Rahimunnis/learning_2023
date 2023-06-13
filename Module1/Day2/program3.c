@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+// program 3  level 1 solution 
 #include <stdio.h>
 
 int main() {

@@ -1,4 +1,4 @@
-//program 5 soultion
+//program 5 level 1 soultion
 #include <stdio.h>
 int main() {
     int a[3]={1,4,5};

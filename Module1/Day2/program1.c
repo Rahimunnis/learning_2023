@@ -1,6 +1,5 @@
-// program 1 solution
+// program 1 level 1 solution 
 #include <stdio.h>
-
 int main() {
     double var;
     printf("\nEnter variable:");
@@ -21,18 +20,25 @@ int main() {
         printf("%d",binnum[j]);
     }
     //decimal to hexadecimal
-    int hexnum[32];
+    char hexnum[100];
     i=0;
     while(n2>0){
         hexnum[i]=n2%16;
+        if(hexnum[i]<10){
+            hexnum[i]=hexnum[i]+48;
+        }
+        else{
+            hexnum[i]=hexnum[i]+55;
+        }
         n2=n2/16;
         i++;
     }
     printf("\nhexadecimal format\n");
     for(j=i-1;j>=0;j--){
-        printf("%d",hexnum[j]);
+        printf("%c",hexnum[j]);
     }
     
 
     return 0;
 }
+

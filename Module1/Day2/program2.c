@@ -1,4 +1,4 @@
-// problem 2 solution...
+// problem 2 level 1 solution.
 #include <stdio.h>
 void swap_numbers(int *n1,int *n2);
 int main() {
