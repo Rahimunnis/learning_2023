@@ -1,4 +1,4 @@
-// program 2 level 2
+// Program 2 solution of level 2
 #include <stdio.h>
 int check_similarity();
 int main(){
