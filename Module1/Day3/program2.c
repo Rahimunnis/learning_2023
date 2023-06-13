@@ -5,7 +5,7 @@ int main(){
     printf("\nEnter number:");
     scanf("%d",&n);
     printf("\nNumber is %d",n);
-    printf("\nEnter no.of bits which you want to represent number %d :",n);
+    printf("\nEnter no.of bits that you want to represent a number (<32) as int (4x8bits) %d :",n);
     scanf("%d",&b);
     printf("\n %d Bit representation  of given  number %d:\n",b,n);
     for(int i=b-1;i>=0;i--){
