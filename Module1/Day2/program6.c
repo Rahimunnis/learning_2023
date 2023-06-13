@@ -1,4 +1,4 @@
-//
+//level 2 program 1
 #include<stdio.h>
 int main(){
     int i,temp,n;
