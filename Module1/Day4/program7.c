@@ -1,8 +1,8 @@
 //dec to binary/octal/hex level 2 solution
 #include<stdio.h>
 void dectobin(int n);
-void octtobin(int n);
-void hextobin(int n);
+void dectooct(int n);
+void dectohex(int n);
 int main(){
     int n,o;
     printf("\nEnter decimal number:");
@@ -15,9 +15,9 @@ int main(){
     if(o==1)
     dectobin(n);
     else if(o==2)
-    octtobin(n);
+    dectooct(n);
     else if(o==3)
-    hextobin(n);
+    dectohex(n);
     else
     printf("Enter valid option");
     return 0;
@@ -37,7 +37,7 @@ void dectobin(int n){
         printf("%d",a[j]);
     }
 }
-void octtobin(int n){
+void dectooct(int n){
     int r;
     int a[32];
     int i=0,j;
@@ -53,7 +53,7 @@ void octtobin(int n){
     }
 
 }
-void hextobin(int n){
+void dectohex(int n){
     int r;
     char a[32];
     int i=0,j;
