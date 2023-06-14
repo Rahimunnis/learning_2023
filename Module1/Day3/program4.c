@@ -2,10 +2,12 @@
 #include <stdio.h>
 int main() {
     int a,t,cnt;
+    int arr[100],j;
+    int i=0;
     printf("\nEnter a number:");
     scanf("%d",&a);
     t=a;cnt=0;
-    int s=0,b=0,r;
+    int s,b=0,r;
     while(t>0){
         t=t/10;
         cnt++;
@@ -15,13 +17,18 @@ int main() {
     if(cnt>1){
         while(a>0){
             r=a%10;
+            arr[i]=r;
             if(r>b){
                 b=r;
             }
-            else{
-                s=r;
-            }
             a=a/10;
+            i++;
+        }
+        s=b;
+        for(j=i-1;j>=0;j--){
+            if(arr[j]<s){
+                s=arr[j];
+            }
         }
         printf("\nsmallest digit in a number=%d",s);
         printf("\nbiggest digit in a given number=%d",b);
